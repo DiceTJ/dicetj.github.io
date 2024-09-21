@@ -67,13 +67,17 @@ function handleKeypress(e, input, output) {
 
             case 'test':
                 return 'Test successful!'
+            case 'info':
+                return 'Hello! Thank you for visiting my website, currently it does not do much, \n but it will in the future!'
 
             case 'help':
                 return `Enter a command here and something will be output.
+            
   Valid options are:
    help - this help text
    clear - clear the screen
-   test - display a test message`
+   test - display a test message
+   info - display website information`
 
             default:
                 return 'Unknown command'
