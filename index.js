@@ -101,6 +101,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await wait(500)
     await writeText(instructions, `Enter a command. Enter 'help' to see a list of commands.`)
     prompt.prepend('>')
+    //Modify this to change cursor character
     cursor.innerHTML = '_'
 
     const input = document.getElementById('command-input')
